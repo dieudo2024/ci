@@ -3,7 +3,7 @@ name: My first workflow
 on: [push]
 
 jobs:
-  say-helo:
+  say-hello:
     runs-on: ubuntu-latest
     steps:
       - name: Print a message
